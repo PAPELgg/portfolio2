@@ -1,0 +1,220 @@
+
+
+<style>
+       /*FONTES*/
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+       /*FONTES*/
+      /*INICIO CORPO*/
+        *{margin: 0; padding: 0;}
+
+        body{background-repeat: no-repeat;background-size: cover;background-position:center ;}
+      /*TERMINO CORPO*/
+       
+      /*INICIO MENU*/
+        .titulo1{background-color: black;
+                color: aliceblue; background-size: cover; margin: 0; padding: 0;  }
+
+         /*FIXO NO TOPO*/
+        nav {background-color: rgba(0, 0, 0, 0.459);overflow: hidden;position: fixed; width: 100%;}
+         /*FIXO NO TOPO*/
+         
+         /*MENU ALINHADO*/
+        nav .logo{ color: aliceblue;float: left;display: block; padding: 14px 16px;border: 0.1px solid;}
+         /*MENU ALINHADO*/
+
+         /*EFEITO LETRAS*/
+         nav .logo:hover{transition: 0.5s;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);}
+         nav a:hover{transition: 0.5s;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);}
+         /*EFEITO LETRAS*/
+
+         /*ALINHAMENTO MENU 2*/
+        nav a{ color: aliceblue;float: right; text-decoration: none;display: block; padding: 14px 16px;}
+         /*ALINHAMENTO MENU 2*/
+         
+         /*FONTE MENU*/
+         .menu-font{font-family: Arial, Helvetica, sans-serif;}
+         /*FONTE MENU*/
+      /*TERMINO MENU*/
+
+      /*INICIO TOPO*/
+        #inicio{height: 100vh;
+                display: flex;
+                align-items: center}
+        
+        .altura-ajuste{ width: 100%;}
+      /*TERMINO TOPO*/
+        
+      /*INICIO SOBRE*/
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Comfortaa&family=Silkscreen&display=swap');;
+        #sobre{width: 100%;background-color:  rgb(37, 36, 36);}
+       
+        .sobre-ajuste{padding: 144px 0;
+                      display: flex;
+                      flex-wrap: wrap;
+                      gap: 67px;
+                      max-width: 1064px;
+                      margin: 0 auto;}
+
+        
+
+        .sobre-foto {height: 100vh;
+                    display: flex;
+                     align-items: left;
+                     width: 450px;
+                     height: 368px;
+                     cursor: pointer;
+                     transition: ease 1s;}
+                     
+        .sobre-foto:hover { transform: scale(1.05);}
+    
+        .sobre {display: flex;
+                flex-direction: column;
+                justify-content: center;}
+        
+        .sobre p {text-indent: 1px;
+                 font-size: 20px;
+                 max-width: 609.25px;
+                 color: white;}
+        
+        @media (max-width:1200px) {
+        .sobre-ajuste {justify-content: center;
+                      text-align: center;}
+
+        .sobre-foto {
+        margin-right: 60px;}
+
+        h2 {font-size: 30px;}
+
+        .sobre-ajuste p {font-size: 15px;}
+        .sobre p {text-indent: 0;}}
+        
+        @media(max-width:950px){
+        .sobre-ajuste {
+         max-width: 350px;
+         padding: 70px 30px;}
+
+        .sobre-foto {margin-right: 0;}}
+
+        .sobre-centralizador {display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;}
+        
+        .sobre-font{font-size: 40px;color: rgb(0, 0, 0);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;}
+         /*TERMINO SOBRE*/
+
+
+
+/*INICIO PROJETO*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Comfortaa&family=Silkscreen&display=swap');;
+#projeto123{align-items: center;width: 100%; background-color:  rgb(2, 2, 2);}
+
+.projeto-ajuste{padding: 144px 0;
+              display: flex;
+              flex-wrap: wrap;
+              gap: 67px;
+              max-width: 1064px;
+              margin: 0 auto;}
+
+h2{font-family: 'Bebas Neue', cursive;}
+
+.projeto-foto {background-color: rgb(37, 36, 36);
+        height: 200px;
+        width: 300px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        overflow: hidden;
+        transition: ease-in-out 0.3s;}
+             
+.projeto-foto:hover { transform: scale(1.05);}
+
+.projeto123 {display: flex;
+        flex-direction: column;
+        justify-content: center;}
+
+.projeto123 p {text-indent: 1px;
+         font-size: 20px;
+         max-width: 609.25px;
+         color: white;}
+
+@media (max-width:1200px) {
+.projeto-ajuste {justify-content: center;
+              text-align: center;}
+
+.projeto-foto {
+margin-right: 60px;}
+
+h2 {font-size: 30px;}
+
+.projeto-ajuste p {font-size: 15px;}
+.projeto123 p {text-indent: 0;}}
+
+@media(max-width:950px){
+.projeto-ajuste {
+ max-width: 350px;
+ padding: 70px 30px;}
+
+.projeto-foto {margin-right: 0;}}
+
+.projeto-centralizador {display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;}
+
+.projeto-font{font-size: 50px;}
+
+.proj {background-color: rgb(14, 13, 13);
+        height: 200px;
+        width: 300px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        overflow: hidden;
+        transition: ease-in-out 0.3s;}
+
+        
+        .proj div p {font-family: 'Fira Sans', sans-serif;
+                font-size: 20px;
+                color: #C4C4C4;}
+        
+        .proj:hover {letter-spacing: 5px;}
+
+        .proj div {background-color: rgb(29, 29, 29);
+                width: 1000px;
+                text-align: center;
+                padding: 5% 0;}
+
+                @media (max-width:1200px) {
+         .projetos{ text-align: center;
+                   display: flex;
+                   flex-direction: column; }
+
+         #projetos { display: flex;
+                     justify-content: center;}
+
+         .projetos-fotos {flex-direction: column;}}
+
+         @media (max-width:950px) {
+         .proj {max-width: 300px;}}
+         
+         .projeto {width:100vh ; color: aliceblue;}
+         
+         .proj-pronto{width: 100%;}
+         
+         .projetos-centralizador {display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;}
+        
+         .projeto{font-size: 50px;font-family: 'Bebas Neue', cursive;}
+         .projeto-font{text-align: center;color: rgb(0, 0, 0);font-family:Arial, Helvetica, sans-serif ;  text-decoration: underline}
+          
+        /*TERMINO PROJETOS*/
+        
+              
+    </style>
